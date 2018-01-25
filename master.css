@@ -1,0 +1,56 @@
+#upperThird{
+  margin: 0px;
+}
+
+
+.container {
+  margin: 0px;
+}
+
+#schools {
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+}
+
+.navbar{
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+
+#njn {
+  border-style: solid;
+  border-width: 1px;
+  border-color: yellow;
+  color: yellow;
+  margin: 5px;
+  border-radius: 4px;
+}
+
+#njn:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: yellow;
+  color: black;
+  background-color: yellow;
+  margin: 5px;
+  border-radius: 4px;
+}
+
+.homeBanner {
+  background:url("images/bckgrnd1.jpg")no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  height: 800px;
+}
+
+#bannerCntr{
+  color: white;
+  background-color: rgba(0, 0, 0, .3);
+  margin-top: 25px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 25px;
+}
