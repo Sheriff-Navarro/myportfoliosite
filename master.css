@@ -21,8 +21,8 @@
 #njn {
   border-style: solid;
   border-width: 1px;
-  border-color: yellow;
-  color: yellow;
+  border-color: #f4425f;
+  color: #f4425f;
   margin: 5px;
   border-radius: 4px;
 }
@@ -30,9 +30,10 @@
 #njn:hover {
   border-style: solid;
   border-width: 1px;
-  border-color: yellow;
+  border-color: #f4425f;
   color: black;
-  background-color: yellow;
+  font-size:22px;
+  background-color: #f4425f;
   margin: 5px;
   border-radius: 4px;
 }
@@ -40,17 +41,54 @@
 .homeBanner {
   background:url("images/bckgrnd1.jpg")no-repeat;
   background-size: cover;
-  padding: 0;
+  padding: 10px;
   margin: 0;
-  height: 800px;
+  height: 600px;
+
 }
 
+
+
 #bannerCntr{
-  color: white;
-  background-color: rgba(0, 0, 0, .3);
+  color: black;
+  background-color: rgba(0, 0, 0, .4);
   margin-top: 25px;
   padding: 20px;
   text-align: center;
   border-radius: 5px;
   font-size: 25px;
+  /* margin: 2px; */
+  /* margin-left: 5px; */
+}
+
+#name {
+  margin-top: 20px;
+  font-size: 25px;
+  color: white;
+}
+
+.img-circle {
+  height: 200px;
+  width: auto;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+
+img {
+  height: 200px;
+  width: auto;
+}
+
+#img2 {
+  height: 200px;
+}
+
+#img3{
+  height: 100px;
+  width: auto;
+  margin-top: 30px
 }
